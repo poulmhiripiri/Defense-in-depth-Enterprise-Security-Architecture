@@ -142,3 +142,7 @@ Controls:
 - Recovery time objective and recovery point objective definitions
 - Restore testing
 - Disaster recovery runbooks
+
+## Infographic context
+
+The defense-in-depth infographic included in the repository supports these layers by showing how perimeter security, network security, endpoint security, application security, and data security are strengthened by policy management, operations, and monitoring & response.

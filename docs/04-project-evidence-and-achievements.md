@@ -68,3 +68,7 @@ Relevant experience themes:
 - Patch management coordination
 - Audit issue closure and evidence gathering
 - Risk-based prioritisation
+
+## Business value demonstrated
+
+Taken together, these experiences show that the author has covered many of the building blocks found in defense-in-depth architecture, both in real operational environments and through hands-on cybersecurity projects. This is especially relevant to recruiters looking for engineers who can connect networking, infrastructure, and cybersecurity into a single business-aligned security model.
