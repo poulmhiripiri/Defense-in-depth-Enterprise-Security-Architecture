@@ -131,7 +131,7 @@ defense-in-depth-enterprise-security-architecture/
 │   ├── 06-incident-response-playbook.md
 │   ├── 07-risk-register.md
 │   ├── 08-implementation-roadmap.md
-│   └── 09-recruiter-talk-track.md
+│   └── 09-professional-summary-and-interview-notes.md
 ├── diagrams/
 │   └── defense-in-depth-architecture.mmd
 ├── assets/
