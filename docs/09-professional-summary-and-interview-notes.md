@@ -15,7 +15,3 @@ I created this project to show recruiters that my experience is not limited to o
 - I can communicate with both technical engineers and senior stakeholders.
 - I can document security architecture, operational controls, incident response, risk registers, and implementation roadmaps.
 - I can connect my banking, ISP/core network, and hands-on cybersecurity project experience to practical defense-in-depth architecture.
-
-## Suggested LinkedIn/GitHub description
-
-Defense-in-depth cybersecurity architecture portfolio project for SMEs and enterprise environments, showing layered controls across governance, network, identity, endpoint, vulnerability management, SIEM monitoring, data protection, and recovery. Built to demonstrate AVP-level infrastructure and network security experience using NIST CSF 2.0 and CIS Controls v8 alignment.
