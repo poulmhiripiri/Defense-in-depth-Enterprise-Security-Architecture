@@ -1,0 +1,22 @@
+name: Markdown Quality Check
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  markdown-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm markdown files exist
+        run: |
+          echo "Checking project documentation..."
+          find . -name "*.md" -type f -print
+
+      - name: Check for accidental secrets keywords
+        run: |
+          ! grep -RniE "password=|secret=|private_key|BEGIN RSA PRIVATE KEY|api_key" . --exclude-dir=.git

@@ -1,0 +1,9 @@
+Rule_ID,Source_Zone,Destination_Zone,Service,Action,Logging,Risk_Rationale,Review_Frequency
+FW-001,Internet,DMZ,HTTPS,Allow,Enabled,Public web service published through reverse proxy/WAF where applicable,Quarterly
+FW-002,Internet,Internal,Any,Deny,Enabled,Deny direct inbound access to internal network,Quarterly
+FW-003,User_Network,Server_Zone,Required_App_Ports,Allow,Enabled,Permit business application access only,Quarterly
+FW-004,User_Network,Database_Zone,Any,Deny,Enabled,Prevent direct user access to databases,Quarterly
+FW-005,Admin_Network,Network_Devices,SSH/HTTPS,Allow,Enabled,Restrict management access to admin network,Monthly
+FW-006,Third_Party_VPN,Application_Zone,Approved_Ports,Allow,Enabled,Limit vendor access to agreed systems only,Monthly
+FW-007,Any,Backup_Zone,Any,Deny,Enabled,Protect backups from lateral movement and ransomware,Quarterly
+FW-008,SIEM,All_Log_Sources,Syslog/Agent,Allow,Enabled,Permit log forwarding to SIEM,Quarterly

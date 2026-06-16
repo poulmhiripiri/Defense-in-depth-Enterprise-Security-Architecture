@@ -1,0 +1,19 @@
+flowchart TB
+    Internet((Internet)) --> EdgeFW[Perimeter NGFW / IPS / VPN]
+    EdgeFW --> DMZ[DMZ Services]
+    EdgeFW --> UserZone[User Network]
+    EdgeFW --> DCZone[Data Centre Core]
+    UserZone --> NAC[Identity / NAC / MFA]
+    UserZone --> Endpoint[Endpoint Protection / Patch Management]
+    DCZone --> AppZone[Application Zone]
+    DCZone --> DBZone[Database Zone]
+    DCZone --> Backup[Backup and Recovery Platform]
+    AppZone --> DBZone
+    DBZone --> Backup
+    EdgeFW --> SIEM[SIEM / Central Logging]
+    UserZone --> SIEM
+    DCZone --> SIEM
+    Endpoint --> SIEM
+    Cloud[Cloud / SaaS / Microsoft 365] --> SIEM
+    SOC[Security Operations / Incident Response] --> SIEM
+    Governance[Risk, Audit, Policy, Change Control] --> SOC
